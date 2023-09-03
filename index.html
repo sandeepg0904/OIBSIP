@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Landing Page</title>
+    <style>
+        *
+        {
+            padding:0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header
+        {
+                width: 100%;
+                height: 100px;
+                background-size: cover ;
+        }
+        nav
+        {
+            width:100%;
+            height: 100px;
+            background-image: url("https://media.licdn.com/dms/image/C4E12AQGIgytMhJH5hw/article-cover_image-shrink_600_2000/0/1534951044753?e=1697673600&v=beta&t=z2rDyj0zY5VsXe7LdAZHBn85LQCV32OAhKfdgiobm-0");
+            background-size: cover;
+            color: black ;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-family: sans-serif;
+        }
+        .logo
+        {
+            font-size: 2em;
+            letter-spacing: 2px;
+        }
+        .menu a
+        {
+            text-decoration:none;
+            padding:10px 20px;
+            font-size: 20px;
+            position: relative;
+        }
+        .menu a:before 
+        {
+            content:'';
+            position:absolute;
+            top:0;
+            left:0;
+            width:0%;
+            height: 100%;
+            border-bottom:2px solid orange;
+            transition: 0.4s linear;
+        }
+        .Register a:hover
+        {
+            background: transparent;
+            border: 1px solid red;
+            font-size: larger;
+        }
+        .menu a:hover:before
+        {
+            width:90%;
+        }
+        .h-txt
+        {   
+            max-width: 650px;
+            position:absolute;
+            top: 50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+            color:black;
+
+        }
+        .h-txt span
+        {
+            letter-spacing: 5px;
+        }
+        .h-txt h1
+        {
+            font-size: 3.50em;
+        }
+        .h-txt a
+        {
+            text-decoration: none;
+            background: orange;
+            color:white;
+            padding: 15px,25px;
+            letter-spacing: 5px;
+            transition: 0.4s linear;
+        }
+        .h-txt a:hover
+        {
+            background: black  ;
+        }
+    </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+        <div class="logo">
+            <b>Landing Page</b>
+        </div>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="https://www.w3schools.com">W3Schools</a>
+            <a href="https://www.javatpoint.com">JavaTpoint</a>
+            <a href="https://www.codingninjas.com">Coding Ninjas</a>
+        </div>
+        <div class="Register">
+            <a href="#">Register</a>
+        </div>
+        <section class="h-txt">
+            <span><b>Enjoy</b></span>
+            <h1><b>Coding Website</b></h1>
+            <br>
+            <a href="#">Learn Programming Here! </a>
+        </section>
+    </nav>
+  </header>
+  <main>
+
+  </main>
+  <footer>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
