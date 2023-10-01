@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: lightblue;
+    /* width: 450px; */
+    height: 100vh;
+    transition: transform 0.3sec ease-in;
+    position: fixed;
+}
+.sidebar nav{
+    padding: 40px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 30px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    background-color: paleturquoise;
+    /* width: 100vw; */
+}
+.container{
+    display: flex;
+}
+.info{
+    /* background-color: green; */
+    height: 75vh;
+    margin-top: 50px;
+    margin-left: 375px;
+    margin-right: 85px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hello{
+    font-size: 30px;
+}
+.name{
+    font-size: 70px;
+    font-weight: bold;
+}
+.about{
+    font-size: 30px;
+}
+.buttons{
+    margin-top: 34px;
+}
+.btn {
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: aliceblue;
+    background-color: red;
+    border: 2px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px 3px;
+    cursor: pointer;
+}
+.btn-small{
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 12px 12px;
+}
+.btn:hover{
+    color:black;
+    background-color: aliceblue;
+}
+.devPic img{
+    height: 55vh;
+    border-radius: 50%;
+    margin-top: 25px;
+    border: 4px solid black;
+}
+.devPic img:hover{
+    transform: scale3D(1.1, 1.1, 1);
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+/* aboutme */
+.aboutme{
+    background-color: rgb(6, 158, 120);
+    margin-left: 375px;
+    margin-right: 85px ;
+    padding: 20px 20px;
+}
+.aboutme h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'optima', 'optima', sans-serif;
+    margin: 25px;
+    font-size: 3rem;
+}
+.about{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.aboutme p{
+    font-family: 'optima', optima, optima;
+    margin: 25px 25px ;
+}
+p{
+    font-size: 1.5rem;
+}
+/* project */
+.projects{
+    background-color: purple;
+    margin-left: 375px;
+    margin-right: 85px ;
+    padding: 25px 25px;
+}
+.projects h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 25px;
+    font-size: 3rem;
+}
+.project{
+    margin: 0 25px;
+    padding: 25px 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* padding-right: 50px; */
+}
+.project p{
+    font-family: 'Times New Roman', Times, serif;
+}
+.pbox1{
+    display: flex;
+    flex-direction: row;
+    padding-right: 50px;
+}
+/* Certificates */
+
+.Certificates{
+    padding: 5px 25px;
+    background-color:lightseagreen;
+    margin-left: 375px;
+    margin-right: 85px ;
+}
+.Certificates h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 25px;
+    font-size: 3rem;
+}
+.certs{
+    display: flex;
+    flex-direction: row;
+}
+.certs1{
+    display: flex;
+    flex-direction: row;
+}
+.cert img{
+    height: 180px;
+    width: 300px;
+    border-radius: 25px;
+    margin: 25px 20px;
+    border: 2px solid black;
+}
+.cert img:hover{
+    transform: scale3D(1.25, 1.25, 1);
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+}
+.cert p{
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+/* contact */
+.contact{
+    margin-left: 375px;
+    margin-right: 85px ;
+    padding: 5px 30px;
+    background-color: lightskyblue;
+    font-family: sans-serif ;
+    display: flex;
+    flex-direction: row;
+}
+.contact h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 25px;
+    font-size: 3rem;
+}
+.social{
+    margin-top: 80px;
+   
+}
+.social img{
+    height: 50px;
+    width: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.contactform{
+    padding-left: 10vw;
+    padding-top: 10vh;
+}
+.contactform h1{
+    font-family: system-ui;
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column; 
+}
+.contactform form div input{
+    width: 25vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 25px;
+    margin: 3px 0;
+}
+/* responsive */
+@media (max-width: 1535px) {
+    .sidebar{
+        background-color: lightblue;
+        height: 100vh;
+        position: absolute;
+    }
+    .info{
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+    .aboutme{
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+    .projects{
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+    .contact{
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+    .Certificates{
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+}
+/* hamburger */
+.sidebarGo{
+    position: absolute;
+    transform: translate(-445px, 0px);
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 20px;
+}
+.cross{
+    margin-left: 190px;
+    position: fixed;
+}

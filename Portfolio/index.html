@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar sidebarGo">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#aboutme">About Me</a></li>
+                    <li><a href="#recentProject">Recent Projects</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="img/hamburger.png" alt="" width="45px">
+                <img class="cross" src="img/close.png" alt="" width="45px">
+            </div>
+            <div class="info" id="home">
+                <div class="devInfo">
+                    <div class="hello">Hi I am</div>
+                    <div class="name">Sandeep Gollamandala</div>
+                    <div class="about">Web Developer</div>
+                    <div class="buttons">
+                        <a href="img/Sandeepresume.pdf" target="_blank">
+                        <button class ="btn">Download CV</button></a>
+                        <a href="#contact">
+                        <button class ="btn">Contact Me</button></a>
+                        <a href="https://www.linkedin.com/in/sandeep-gollamandala-74b612252" target="_blank">
+                        <button class="btn">LinkedIn</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="devPic"><img src="img/PP.png" alt="Aman Tiwari">
+                </div>
+            </div>
+
+            <div class="aboutme" id ="aboutme">
+                <h1>About me</h1>
+                <p>I currently pursuing B.Tech Final year in the stream of CSE in <b>Seshadri Rao Gudlavalleru Engineering College</b>.</p>
+                <p> I am Passionate about using technology to solve real-world problem.</p>
+                <p> I am learning Web Development, Database Management Systems, Object Oriented Programing . </p>
+                <p>I am excited to continue learning & growing in the field of computer science and ready to collaborate with others in the industry.</p>
+                <h1>My Skills</h1>
+                <p><b>Technical:</b> <br><br>Python, Java, HTML, CSS, Javascript, NodeJS, Bootstrap, ReactJS,  MS Office (Excel, Word & PowerPoint), MySQL</p>
+                <p><b>Soft Skills:</b> <br><br>Communication Skill, Team Work, Decision Making, Leadership</p>
+            </div>
+
+            <div class="projects" id ="recentProject">
+                <h1>Projects</h1><br>
+                <div class="project">
+                    <h2>Flight Booking App</h2>
+                    <p>Used to book flights.</p>
+                    <p>Used HTML, CSS, Bootstrap, Javascript, Php, MongoDB.</p>
+                    <a href="https://github.com/sandeepg0904/Flight-Booking-App"  target="_blank"> <button class="btn btn-small">Click to view</button></a>
+                </div>
+            </div>
+            <div class="Certificates" id ="certificates">
+                <h1 id="certificates"> Certifications</h1>
+                <div class="certs">
+                    <div class="cert">
+                        <img src="img/EBOX.png" alt="Data science and Programming">
+                        <p><b>DSA Usign Python</b></p>
+                    </div>
+                    <div class="cert">
+                        <img src="img/ciscocybersecurity.jpg" alt="Cyber Awareness">
+                        <p><b>Cyber Security</b></p>
+                    </div>
+                    <div class="cert">
+                        <img src="img/cognizant agile.jpg" alt="Internship Certificate">
+                        <p><b>Agile Methodology from Cognizant</b></p>
+                    </div>
+                </div>
+                <div class="certs1">
+                    <div class="cert">
+                        <img src="img/Javacodingninjas.jpg" alt="Internship Certificate">
+                        <p><b>Java From Coding Ninjas</b></p>
+                    </div>
+                    <div class="cert">
+                        <img src="img/Software Testing.jpg" alt="Internship Certificate">
+                        <p><b>Software Testing From Nptel</b></p>
+                    </div>
+                    <div class="cert">
+                        <img src="img/Guvipython.png" alt="Internship Certificate">
+                        <p><b>Python From Guvi</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact" id ="contact">
+                <div class="contactme">
+                    <h1><i> Contact Details</i></h1><br><br>
+                        <p class="contactDetails"> <b>Email:</b> sandeepgollamandala0@gmail.com <br><br>
+                            <b>Mobile No:</b> (+91) 7995650904 <br><br><br>
+                            <div class="social">
+                                <a href="https://linkedin.com/in/amantiwari1928" target="_blank"><img src="img/li.png" alt=""></a>
+                                <a href="https://www.facebook.com/profile.php?id=100010670285953" target="_blank"><img src="img/fb.ico" alt=""></a>
+                                <a href="https://www.instagram.com/royal_aman_tiwari_/" target="_blank"><img src="img/ig.png" alt=""></a>
+                            </div>
+                    </p>
+                </div>
+                <div class="contactform"><br><br>
+                    <form>
+                        <div class="mb-3">
+                            <label for="clientmail" class ="form-label"> Email</label>
+                            <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="clientphone" class ="form-label"> Phone</label>
+                            <input type="phone" class="form-control" id="clientphone">
+                        </div>
+                        <div id="emailHelp" class="form-text">We'll never share your email & phone with anyone else.</div>
+                        <div class="mb-3" id="form-check">
+                            <input type="checkbox" class="form-check-input" id="isclient">
+                            <label class ="form-check-label" for="isclient"> I want you to work on a project with you</label>
+                        </div>
+                        <button type="submit" class="btn btn-small">Submit</button>
+                    </form>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
